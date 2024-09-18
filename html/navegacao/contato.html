@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Contato - Tech Innovators</title>
+    </head>
+    <body>
+        <header>
+            <h1>Entre em Contato com a Tech Innovators</h1>
+        </header>
+
+        <main>
+            <section>
+                <h2>Envie uma Mensagem</h2>
+                <form action="/enviar-mensagem" method="POST">
+                    <div>
+                        <label for="nome">Nome Completo</label>
+                        <input type="text" id="nome" name="nome" placeholder="Seu nome" required />
+                    </div>
+
+                    <div>
+                        <label for="email">E-mail</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Seu e-mail"
+                            required
+                        />
+                    </div>
+
+                    <div>
+                        <label for="assunto">Assunto</label>
+                        <input
+                            type="text"
+                            id="assunto"
+                            name="assunto"
+                            placeholder="Assunto da mensagem"
+                            required
+                        />
+                    </div>
+
+                    <div>
+                        <label for="mensagem">Mensagem</label>
+                        <div>
+                            <textarea
+                                id="mensagem"
+                                name="mensagem"
+                                rows="6"
+                                placeholder="Escreva sua mensagem aqui..."
+                                required
+                            ></textarea>
+                        </div>
+                    </div>
+
+                    <button type="submit">Enviar Mensagem</button>
+                </form>
+            </section>
+
+            <section class="contact-info">
+                <h2>Nossos Contatos</h2>
+                <p>Entre em contato conosco por e-mail, telefone ou visite nosso escritório.</p>
+
+                <h3>E-mail</h3>
+                <p>contato@techinnovators.com</p>
+
+                <h3>Telefone</h3>
+                <p>(11) 4000-1234</p>
+
+                <h3>Endereço</h3>
+                <p>Rua da Inovação, 987 - 10º andar<br />São Paulo, SP - Brasil</p>
+
+                <h3>Horário de Atendimento</h3>
+                <p>
+                    Segunda a Sexta: 9h às 18h<br />
+                    Sábados: 10h às 14h
+                </p>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Tech Innovators - Todos os direitos reservados.</p>
+        </footer>
+    </body>
+</html>
