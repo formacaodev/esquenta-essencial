@@ -1,12 +1,31 @@
-<form action="">
-    <input
-        id="nome-usuario"
-        type="text"
-        name="nome-usuario"
-        placeholder="Informe o nome do usuário"
-        value=""
-        size="50"
-        required
-    />
-    <button>Enviar</button>
-</form>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Campo de Texto</title>
+    </head>
+    <body>
+        <form action="">
+            <!-- campo-texto.html?nome-completo-usuario=Leonardo+Leitão -->
+             <!-- 
+                campo-texto.html?nome-completo-usuario=Leonardo+Leitão&logradouro=Rua+ABC%2C+123
+             -->
+            <input
+                type="text"
+                name="nome-completo-usuario"
+                placeholder="Informe o nome do usuário"
+                value=""
+                size="50"
+                required
+            />
+            <input
+                type="text"
+                name="logradouro"
+                placeholder="Informe o seu logradouro"
+                value=""
+                size="50"
+                required
+            />
+            <button>Enviar</button>
+        </form>
+    </body>
+</html>
