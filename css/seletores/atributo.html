@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Seletor de Atributo</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #222;
+                color: #fff;
+                text-align: center;
+                padding: 50px;
+            }
+
+            [lista] {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+                margin-top: 20px;
+            }
+
+            a[href] {
+                text-decoration: none;
+                color: #3498db;
+                padding: 10px;
+                border: 2px solid transparent;
+                transition: 0.3s ease;
+            }
+
+            a[href^='https'] {
+                color: #28a745;
+                border: 2px solid #28a745;
+                border-radius: 5px;
+            }
+
+            a[href$='.pdf'] {
+                color: #e74c3c;
+                font-weight: bold;
+                border-bottom: 3px dotted #e74c3c;
+            }
+
+            a[href*='contato'] {
+                color: #fad69d;
+                background-color: #b55b11;
+                border-radius: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Seletor de Atributo</h1>
+
+        <div lista>
+            <a href="https://google.com" target="_blank">Link Seguro (https)</a><br />
+            <a href="documento.pdf" target="_blank">Baixar PDF</a><br />
+            <a href="contato.html">Entre em Contato</a><br />
+            <a href="http://site.com" target="_blank">Link Inseguro (http)</a>
+        </div>
+    </body>
+</html>

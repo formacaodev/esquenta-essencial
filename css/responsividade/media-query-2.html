@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Media Query #02</title>
+        <style>
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+
+                background-color: #000;
+                margin: 0;
+            }
+
+            .caixa {
+                width: 100%;
+                padding: 20px;
+                background-color: lightblue;
+                text-align: center;
+                font-size: 20px;
+            }
+
+            @media (orientation: portrait) {
+                .caixa {
+                    background-color: lightgreen;
+                    font-size: 24px;
+                }
+            }
+
+            @media (orientation: landscape) {
+                .caixa {
+                    background-color: lightcoral;
+                    font-size: 28px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="caixa">Mude a orientação do dispositivo!</div>
+    </body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Display Flex</title>
+        <style>
+            body {
+                background-color: #000;
+                color: #fff;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .container {
+                display: flex;
+                flex-direction: row;
+                gap: 10px;
+                height: 100%;
+
+                /* justify-content: start; */
+                /* justify-content: end; */
+                justify-content: center;
+                /* justify-content: space-between; */
+                /* justify-content: space-around; */
+
+                /* align-items: normal; */
+                align-items: start;
+                /* align-items: end; */
+                /* align-items: center; */
+                /* align-items: stretch; */
+                /* align-items: baseline; */
+            }
+
+            .caixa {
+                background-color: #dc143c;
+                border: 2px solid #fff;
+                padding: 50px;
+                font-size: 1.6rem;
+            }
+
+            .crescer {
+                flex: 1;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="caixa">1</div>
+            <div class="caixa crescer">2</div>
+            <div class="caixa">3</div>
+            <div class="caixa">4</div>
+            <div class="caixa">5</div>
+            <div class="caixa">6</div>
+            <div class="caixa">7</div>
+        </div>
+    </body>
+</html>

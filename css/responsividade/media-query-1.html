@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Media Query #01</title>
+        <style>
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                background-color: #000;
+            }
+
+            .caixa {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 20px;
+                background-color: lightblue;
+                text-align: center;
+                font-size: 20px;
+            }
+
+            @media (min-width: 600px) {
+                .caixa {
+                    width: 500px;
+                    height: 500px;
+                    background-color: lightgreen;
+                    font-size: 24px;
+                }
+            }
+
+            @media (max-width: 400px) {
+                .caixa {
+                    width: 250px;
+                    height: 250px;
+                    background-color: lightcoral;
+                    font-size: 16px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="caixa">Redimensione a janela do navegador!</div>
+    </body>
+</html>
