@@ -17,16 +17,16 @@ Bem-vindo ao repositório oficial da série de vídeos **Esquenta Essencial**! E
 
 ## Links para os vídeos da série no YouTube:
 
-1. [Introdução ao HTML](https://www.youtube.com/watch?v=link_video_1)
-2. [Estilos com CSS](https://www.youtube.com/watch?v=link_video_2)
-3. [JavaScript para Iniciantes](https://www.youtube.com/watch?v=link_video_3)
-4. [TypeScript e Tipagem Estática](https://www.youtube.com/watch?v=link_video_4)
-5. [Construindo Interfaces com React](https://www.youtube.com/watch?v=link_video_5)
-6. [Next.js - SSR e Rotas Dinâmicas](https://www.youtube.com/watch?v=link_video_6)
-7. [Estilizando com Tailwind CSS](https://www.youtube.com/watch?v=link_video_7)
-8. [React Native - Desenvolvimento Mobile](https://www.youtube.com/watch?v=link_video_8)
-9. [Nest.js - Back-end em Node.js](https://www.youtube.com/watch?v=link_video_9)
-10. [Trabalhando com Banco de Dados](https://www.youtube.com/watch?v=link_video_10)
+1. [O Essencial de HTML](https://www.youtube.com/watch?v=BRd8_yFzQiA)
+2. [O Essencial de CSS](https://www.youtube.com/watch?v=QxWxhjH98R0)
+3. [O Essencial de JavaScript](https://www.youtube.com/watch?v=oYhNLfh7oto)
+4. [O Essencial de TypeScript](https://www.youtube.com/watch?v=link_video_4)
+5. [O Essencial de React](https://www.youtube.com/watch?v=link_video_5)
+6. [O Essencial de Next.js](https://www.youtube.com/watch?v=link_video_6)
+7. [O Essencial de Tailwind CSS](https://www.youtube.com/watch?v=link_video_7)
+8. [O Essencial de React Native](https://www.youtube.com/watch?v=link_video_8)
+9. [O Essencial de Nest.js](https://www.youtube.com/watch?v=link_video_9)
+10. [O Essencial de Banco de Dados](https://www.youtube.com/watch?v=link_video_10)
 
 ---
 
