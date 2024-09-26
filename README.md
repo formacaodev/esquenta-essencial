@@ -22,7 +22,7 @@ Bem-vindo ao repositório oficial da série de vídeos **Esquenta Essencial**! E
 3. [O Essencial de JavaScript](https://www.youtube.com/watch?v=oYhNLfh7oto)
 4. [O Essencial de TypeScript](https://www.youtube.com/watch?v=X2MV17E9nxE)
 5. [O Essencial de React](https://www.youtube.com/watch?v=tYjYfWG8L3o)
-6. [O Essencial de Next.js](https://www.youtube.com/watch?v=link_video_6)
+6. [O Essencial de Next.js](https://www.youtube.com/watch?v=BSrmGMC1-is)
 7. [O Essencial de Tailwind CSS](https://www.youtube.com/watch?v=link_video_7)
 8. [O Essencial de React Native](https://www.youtube.com/watch?v=link_video_8)
 9. [O Essencial de Nest.js](https://www.youtube.com/watch?v=link_video_9)

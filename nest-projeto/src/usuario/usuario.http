@@ -1,0 +1,11 @@
+POST http://localhost:4000/usuarios
+Content-Type: application/json
+
+{
+    "nome": "João",
+    "email": "joao@empresa.com.br",
+    "senha": "123456"
+}
+
+###
+GET http://localhost:4000/usuarios

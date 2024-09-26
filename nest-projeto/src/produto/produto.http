@@ -1,0 +1,31 @@
+GET http://localhost:4000/produtos/ping
+
+###
+GET http://localhost:4000/produtos
+
+###
+GET http://localhost:4000/produtos/2
+
+###
+
+POST http://localhost:4000/produtos
+Content-Type: application/json
+
+{
+    "nome": "Teclado Mecânico Redragon Kumara",
+    "preco": 299.99,
+    "descricao": "Teclado mecânico Redragon Kumara, switch Outemu Blue, ABNT2, Preto",
+    "imagemUrl": "https://images-na.ssl-images-amazon.com/images/I/71zrj7Zv1GL._AC_SL1500_.jpg"
+}
+
+###
+PATCH http://localhost:4000/produtos
+Content-Type: application/json
+
+{
+    "id": 4,
+    "preco": 499.99
+}
+
+###
+DELETE http://localhost:4000/produtos/3
