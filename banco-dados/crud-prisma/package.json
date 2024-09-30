@@ -1,0 +1,21 @@
+{
+	"name": "crud",
+	"version": "1.0.0",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node src/index.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+		"@prisma/client": "^5.20.0",
+		"terminal-kit": "^3.1.1"
+	},
+	"devDependencies": {
+		"prisma": "^5.20.0"
+	}
+}
